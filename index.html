@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedIntel — Intelligent Medical Support</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a href="#home" class="nav-logo">
+        <div class="nav-logo-icon">
+          <img src="logo.jpeg" alt="MedIntel Logo" />
+        </div>
+        <span class="nav-logo-text">Med<span>Intel</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="https://sabyoni-devs-med-intel.vercel.app/" class="nav-cta">Access Platform →</a></li>
+      </ul>
+
+      <div class="status-pill">
+        <div class="status-dot"></div>
+        System Online
+      </div>
+    </nav>
+
+    <!-- HOME / HERO -->
+    <section id="home">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+
+      <div class="hero-inner">
+        <!-- LEFT: Text -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <div class="hero-badge-dot"></div>
+            AI-Powered Healthcare Management
+          </div>
+
+          <h1 class="hero-title">
+            Smarter Care.<br />
+            <span class="accent-blue">Faster</span> Triage.<br />
+            <span class="accent-teal">Better</span> Outcomes.
+          </h1>
+
+          <p class="hero-subtitle">
+            MedIntel modernizes South African clinical workflows — connecting
+            patients, doctors, nurses, and administrators on one intelligent,
+            secure platform powered by AI.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#" class="btn-primary">
+              Get Started
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#problem" class="btn-secondary">
+              Learn More
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 5v14M5 12l7 7 7-7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-num">5<span>+</span></div>
+              <div class="hero-stat-label">User Roles</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">2<span> AI</span></div>
+              <div class="hero-stat-label">OCTAVIA & ARIA</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">99<span>%</span></div>
+              <div class="hero-stat-label">Uptime Target</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Dashboard Mockup -->
+        <div class="hero-visual">
+          <div class="dashboard-card">
+            <div class="db-topbar">
+              <div class="db-dots">
+                <div class="db-dot"></div>
+                <div class="db-dot"></div>
+                <div class="db-dot"></div>
+              </div>
+              <div class="db-title">Doctor Dashboard — MedIntel</div>
+              <div class="db-status">
+                <div class="db-status-dot"></div>
+                Live
+              </div>
+            </div>
+
+            <div class="db-body">
+              <!-- Stat cards -->
+              <div class="db-stats-row">
+                <div class="db-stat-card">
+                  <div class="db-stat-label">Queue Today</div>
+                  <div class="db-stat-val">24</div>
+                  <span class="db-stat-tag tag-blue">Active</span>
+                </div>
+                <div class="db-stat-card">
+                  <div class="db-stat-label">AI Triaged</div>
+                  <div class="db-stat-val">18</div>
+                  <span class="db-stat-tag tag-teal">Approved</span>
+                </div>
+                <div class="db-stat-card">
+                  <div class="db-stat-label">Critical</div>
+                  <div class="db-stat-val">3</div>
+                  <span
+                    class="db-stat-tag tag-green"
+                    style="background: rgba(239, 68, 68, 0.2); color: #f87171"
+                    >Urgent</span
+                  >
+                </div>
+              </div>
+
+              <!-- Patient queue -->
+              <div>
+                <div class="db-section-label">AI-Sorted Patient Queue</div>
+
+                <div class="queue-row">
+                  <div
+                    class="queue-avatar"
+                    style="background: rgba(239, 68, 68, 0.15); color: #f87171"
+                  >
+                    TM
+                  </div>
+                  <div class="queue-info">
+                    <div class="queue-name">Thabo Mokoena</div>
+                    <div class="queue-detail">Chest pain · Vitals recorded</div>
+                  </div>
+                  <span class="urgency-badge urgency-critical">CRITICAL</span>
+                </div>
+
+                <div class="queue-row">
+                  <div
+                    class="queue-avatar"
+                    style="background: rgba(245, 158, 11, 0.15); color: #fcd34d"
+                  >
+                    NZ
+                  </div>
+                  <div class="queue-info">
+                    <div class="queue-name">Nomsa Zulu</div>
+                    <div class="queue-detail">High fever · 38.9°C</div>
+                  </div>
+                  <span class="urgency-badge urgency-high">HIGH</span>
+                </div>
+
+                <div class="queue-row">
+                  <div
+                    class="queue-avatar"
+                    style="background: rgba(34, 197, 94, 0.12); color: #4ade80"
+                  >
+                    KD
+                  </div>
+                  <div class="queue-info">
+                    <div class="queue-name">Kagiso Dlamini</div>
+                    <div class="queue-detail">
+                      Follow-up · Prescription refill
+                    </div>
+                  </div>
+                  <span class="urgency-badge urgency-normal">NORMAL</span>
+                </div>
+              </div>
+
+              <!-- OCTAVIA AI bar -->
+              <div class="ai-bar">
+                <div class="ai-icon">🤖</div>
+                <div class="ai-text">
+                  <div class="ai-label">OCTAVIA AI Triage Summary</div>
+                  <div class="ai-summary">
+                    Patient presents with acute chest discomfort. Recommend
+                    immediate ECG and cardiology review. Urgency: Critical.
+                  </div>
+                </div>
+                <div class="ai-pill">Approved ✓</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE STRIP -->
+    <div class="features-strip">
+      <div class="features-strip-inner">
+        <div class="feature-item">
+          <div class="feature-icon-wrap icon-blue">🧠</div>
+          <div class="feature-title">AI-Powered Triage</div>
+          <p class="feature-desc">
+            OCTAVIA intelligently sorts patients by urgency so critical cases
+            are never delayed behind routine visits.
+          </p>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-wrap icon-teal">🔒</div>
+          <div class="feature-title">Centralized Records</div>
+          <p class="feature-desc">
+            Secure, role-based digital records replace lost paper files — every
+            patient history accessible instantly.
+          </p>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-wrap icon-purple">💬</div>
+          <div class="feature-title">ARIA Health Assistant</div>
+          <p class="feature-desc">
+            Patients receive immediate AI-powered health assessments, anytime —
+            reducing unnecessary in-person visits.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM SECTION -->
+    <!-- TEAM SECTION -->
+<section id="team">
+  <div class="team-inner">
+    <div class="section-label-wrap">
+      <div class="section-eyebrow">The People Behind It</div>
+      <h2 class="section-title">Meet the <span class="accent-teal">SABYONI Devs</span></h2>
+      <p class="section-sub">Six developers, one mission — modernizing healthcare in South Africa.</p>
+    </div>
+
+    <div class="team-grid">
+
+      <div class="team-card">
+        <img src="Sthembile.jpeg" alt="SS Sithole" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">SS Sithole</div>
+          <div class="team-role">Frontend Developer Lead</div>
+          <div class="team-number">STU · 001</div>
+        </div>
+        <div class="team-tag">UI / UX</div>
+      </div>
+
+      <div class="team-card">
+        <img src="Adi.jpeg" alt="FA Mudau" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">FA Mudau</div>
+          <div class="team-role">Documenter / Business Analysis</div>
+          <div class="team-number">STU · 002</div>
+        </div>
+        <div class="team-tag">Documentation</div>
+      </div>
+
+      <div class="team-card">
+        <img src="Bontle.jpeg" alt="B Rapesioa" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">B Rapesioa</div>
+          <div class="team-role">Figma Design Manager</div>
+          <div class="team-number">STU · 003</div>
+        </div>
+        <div class="team-tag">Designer</div>
+      </div>
+
+      <div class="team-card">
+        <img src="Yana.jpeg" alt="Y Makan" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">Y Makan</div>
+          <div class="team-role">Project Lead / Database Manager</div>
+          <div class="team-number">STU · 004</div>
+        </div>
+        <div class="team-tag">Strategy</div>
+      </div>
+
+      <div class="team-card">
+        <img src="#" alt="NM Lumbwe" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">NM Lumbwe</div>
+          <div class="team-role">Full Stack Developer</div>
+          <div class="team-number">STU · 005</div>
+        </div>
+        <div class="team-tag">Developer</div>
+      </div>
+
+      <div class="team-card">
+        <img src="Israel2.jpeg" alt="IL Kasatuka" class="team-avatar team-avatar--photo">
+        <div class="team-info">
+          <div class="team-name">IL Kasatuka</div>
+          <div class="team-role">Full Stack Developer / Group Leader</div>
+          <div class="team-number">STU · 006</div>
+        </div>
+        <div class="team-tag">Infra/DevOps</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- PROBLEM SECTION -->
+    <section id="problem">
+      <div class="problem-inner">
+        <div class="section-label-wrap">
+          <div
+            class="section-eyebrow"
+            style="
+              background: rgba(239, 68, 68, 0.1);
+              border-color: rgba(239, 68, 68, 0.25);
+              color: #f87171;
+            "
+          >
+            The Reality on the Ground
+          </div>
+          <h2 class="section-title">
+            A System <span style="color: #f87171">Under Strain</span>
+          </h2>
+          <p class="section-sub">
+            Three compounding failures that leave millions of South Africans
+            without timely, dignified care.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <!-- Problem 1 -->
+          <div class="problem-card">
+            <div class="problem-num">01</div>
+            <div
+              class="problem-icon-wrap"
+              style="
+                background: rgba(239, 68, 68, 0.1);
+                border-color: rgba(239, 68, 68, 0.2);
+              "
+            >
+              <svg
+                width="26"
+                height="26"
+                fill="none"
+                stroke="#F87171"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
+            </div>
+            <h3 class="problem-title">Overwhelmed Public Facilities</h3>
+            <p class="problem-body">
+              Public hospitals and clinics are chronically underfunded — leading
+              to overcrowding, supply shortages, and crumbling infrastructure.
+              Without appointment or queue systems, patients arrive before dawn
+              simply to secure a consultation slot.
+            </p>
+            <div class="problem-footer">
+              <a
+                href="https://t20southafrica.org/commentaries/global-south-at-a-crossroads-weak-healthcare-systems-slow-progress-on-the-sdgs-and-hurt-economic-growth/"
+                target="_blank"
+                class="stat-cite"
+                >T20 South Africa ↗</a
+              >
+              <a
+                href="https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0000684"
+                target="_blank"
+                class="stat-cite"
+                >PLOS ↗</a
+              >
+            </div>
+            <div
+              class="problem-glow"
+              style="background: rgba(239, 68, 68, 0.06)"
+            ></div>
+          </div>
+
+          <!-- Problem 2 -->
+          <div class="problem-card problem-card--center">
+            <div class="problem-num">02</div>
+            <div
+              class="problem-icon-wrap"
+              style="
+                background: rgba(245, 158, 11, 0.1);
+                border-color: rgba(245, 158, 11, 0.2);
+              "
+            >
+              <svg
+                width="26"
+                height="26"
+                fill="none"
+                stroke="#FCD34D"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
+                />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+            </div>
+            <h3 class="problem-title">Paper-Based, Fragmented Records</h3>
+            <p class="problem-body">
+              Lost clinic folders and misplaced test results are not isolated
+              incidents — they are a systemic failure. Administrative errors
+              delay diagnosis, compromise treatment decisions, and put patients
+              at direct risk of harm.
+            </p>
+            <div class="problem-footer">
+              <a
+                href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11338458/"
+                target="_blank"
+                class="stat-cite"
+                >PubMed Central ↗</a
+              >
+            </div>
+            <div
+              class="problem-glow"
+              style="background: rgba(245, 158, 11, 0.06)"
+            ></div>
+          </div>
+
+          <!-- Problem 3 -->
+          <div class="problem-card">
+            <div class="problem-num">03</div>
+            <div
+              class="problem-icon-wrap"
+              style="
+                background: rgba(139, 92, 246, 0.1);
+                border-color: rgba(139, 92, 246, 0.2);
+              "
+            >
+              <svg
+                width="26"
+                height="26"
+                fill="none"
+                stroke="#A78BFA"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <h3 class="problem-title">
+              No Intelligent Triage or Prioritisation
+            </h3>
+            <p class="problem-body">
+              Without smart triage, emergencies queue behind routine
+              consultations. Frustrated patients skip appointments or move
+              between clinics chasing shorter waits — increasing medical errors,
+              eroding trust, and letting critical cases slip through undetected.
+            </p>
+            <div class="problem-footer">
+              <a
+                href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0299253"
+                target="_blank"
+                class="stat-cite"
+                >PLOS ONE ↗</a
+              >
+            </div>
+            <div
+              class="problem-glow"
+              style="background: rgba(139, 92, 246, 0.06)"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Tension bridge into solution -->
+        <div class="problem-bridge">
+          <div class="bridge-line"></div>
+          <div class="bridge-text">
+            These are not isolated failures — they are interconnected. Fix one
+            without the others and the system still breaks.
+          </div>
+          <div class="bridge-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTICS SECTION -->
+    <section id="statistics">
+      <div class="stats-inner">
+        <div class="section-label-wrap">
+          <div class="section-eyebrow">Research-Backed Data</div>
+          <h2 class="section-title">
+            The Crisis <span class="accent-blue">By the Numbers</span>
+          </h2>
+          <p class="section-sub">
+            Real South African data exposing the scale of the public healthcare
+            challenge.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(239, 68, 68, 0.12)">
+              🏥
+            </div>
+            <div class="stat-big">
+              <span class="stat-num">84</span><span class="stat-unit">%</span>
+            </div>
+            <div class="stat-desc">
+              of South Africans rely solely on the public healthcare sector
+            </div>
+            <div class="stat-source">
+              <a
+                href="https://samajournals.co.za/index.php/sajbl/article/view/3522"
+                target="_blank"
+                class="stat-cite"
+                >SAJBL ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(245, 158, 11, 0.12)">
+              👨‍⚕️
+            </div>
+            <div class="stat-big">
+              <span class="stat-num">0.3</span
+              ><span class="stat-unit">/1k</span>
+            </div>
+            <div class="stat-desc">
+              doctors per 1,000 people — WHO recommends 2.5 per 1,000
+            </div>
+            <div class="stat-source">
+              <a
+                href="https://samajournals.co.za/index.php/sajbl/article/view/3522"
+                target="_blank"
+                class="stat-cite"
+                >SAJBL ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(37, 99, 235, 0.12)">
+              ⏱️
+            </div>
+            <div class="stat-big">
+              <span class="stat-num">83</span><span class="stat-unit">%</span>
+            </div>
+            <div class="stat-desc">
+              of patients experience long waiting times due to overcrowding and
+              poor systems
+            </div>
+            <div class="stat-source">
+              <a
+                href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0299253"
+                target="_blank"
+                class="stat-cite"
+                >PLOS ONE ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(13, 148, 136, 0.12)">
+              🕐
+            </div>
+            <div class="stat-big">
+              <span class="stat-num">2.6</span
+              ><span class="stat-unit">hrs</span>
+            </div>
+            <div class="stat-desc">
+              median clinic visit — most spent waiting, not receiving care
+            </div>
+            <div class="stat-source">
+              <a
+                href="https://www.medrxiv.org/content/10.1101/2021.07.21.21260806v1.full"
+                target="_blank"
+                class="stat-cite"
+                >medRxiv ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon" style="background: rgba(139, 92, 246, 0.12)">
+              💸
+            </div>
+            <div class="stat-big">
+              <span class="stat-num">50</span><span class="stat-unit">%+</span>
+            </div>
+            <div class="stat-desc">
+              of total healthcare spend consumed by just 16% with private
+              insurance
+            </div>
+            <div class="stat-source">
+              <a
+                href="https://jglforensics.co.za/south-africas-healthcare-crisis/"
+                target="_blank"
+                class="stat-cite"
+                >JGL Forensics ↗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom callout -->
+        <div class="stats-callout">
+          <div class="callout-icon">📋</div>
+          <div class="callout-text">
+            <div class="callout-title">
+              Lost folders. Administrative errors. Preventable harm.
+            </div>
+            <div class="callout-body">
+              Research directly calls for electronic scheduling and digital
+              patient records as the solution to documented patient harm in
+              South African public clinics.
+            </div>
+          </div>
+          <a
+            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11338458/"
+            target="_blank"
+            class="callout-link"
+            >Read Research ↗</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION SECTION -->
+    <section id="solution">
+      <div class="solution-inner">
+        <div class="section-label-wrap">
+          <div
+            class="section-eyebrow"
+            style="
+              background: rgba(13, 148, 136, 0.1);
+              border-color: rgba(13, 148, 136, 0.25);
+              color: var(--teal-light);
+            "
+          >
+            MedIntel's Answer
+          </div>
+          <h2 class="section-title">
+            Built to <span class="accent-teal">Solve</span> Every Gap
+          </h2>
+          <p class="section-sub">
+            MedIntel is a fully web-based, AI-powered healthcare management
+            system designed to modernize clinical workflows across South African
+            public and private healthcare.
+          </p>
+        </div>
+
+        <!-- Problem → Solution mapping table -->
+        <div class="solution-map">
+          <div class="map-col map-col--problem">
+            <div class="map-col-header">
+              <span class="map-col-dot" style="background: #f87171"></span>
+              The Problem
+            </div>
+            <div class="map-row">
+              <span class="map-icon">😤</span> Overwhelmed queues with no order
+            </div>
+            <div class="map-row">
+              <span class="map-icon">📂</span> Lost paper folders &amp; records
+            </div>
+            <div class="map-row">
+              <span class="map-icon">🚨</span> No smart emergency prioritisation
+            </div>
+            <div class="map-row">
+              <span class="map-icon">🚪</span> Patients locked out of their own
+              care
+            </div>
+            <div class="map-row">
+              <span class="map-icon">📡</span> Communication gaps between roles
+            </div>
+          </div>
+
+          <div class="map-arrow-col">
+            <div class="map-arrow-spacer"></div>
+            <div class="map-arrow">→</div>
+            <div class="map-arrow">→</div>
+            <div class="map-arrow">→</div>
+            <div class="map-arrow">→</div>
+            <div class="map-arrow">→</div>
+          </div>
+
+          <div class="map-col map-col--solution">
+            <div class="map-col-header">
+              <span
+                class="map-col-dot"
+                style="background: var(--teal-light)"
+              ></span>
+              MedIntel's Solution
+            </div>
+            <div class="map-row map-row--solution">
+              OCTAVIA AI automatically sorts &amp; prioritises patients by
+              urgency
+            </div>
+            <div class="map-row map-row--solution">
+              Digital records stored securely in Supabase PostgreSQL,
+              role-access only
+            </div>
+            <div class="map-row map-row--solution">
+              AI-sorted queue ensures emergencies are never delayed behind
+              routine visits
+            </div>
+            <div class="map-row map-row--solution">
+              Patient Portal — appointments, prescriptions, records &amp; ARIA
+              AI assistant
+            </div>
+            <div class="map-row map-row--solution">
+              Real-time notifications across all roles — doctors, nurses, admins
+              &amp; patients
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature highlights grid -->
+        <div class="solution-features">
+          <div class="sol-feature-card">
+            <div class="sol-feature-top">
+              <div
+                class="sol-feature-icon"
+                style="
+                  background: rgba(37, 99, 235, 0.12);
+                  border-color: rgba(37, 99, 235, 0.2);
+                "
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="#3B82F6"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2a10 10 0 100 20A10 10 0 0012 2z" />
+                  <path d="M12 8v4l3 3" />
+                </svg>
+              </div>
+              <div
+                class="sol-feature-badge"
+                style="
+                  background: rgba(37, 99, 235, 0.1);
+                  color: #3b82f6;
+                  border-color: rgba(37, 99, 235, 0.2);
+                "
+              >
+                AI Triage
+              </div>
+            </div>
+            <h4 class="sol-feature-title">
+              OCTAVIA — Intelligent Queue Management
+            </h4>
+            <p class="sol-feature-desc">
+              Automatically analyses patient-reported symptoms and vitals to
+              rank urgency — ensuring critical cases surface immediately and
+              routine visits don't block emergencies.
+            </p>
+          </div>
+
+          <div class="sol-feature-card">
+            <div class="sol-feature-top">
+              <div
+                class="sol-feature-icon"
+                style="
+                  background: rgba(13, 148, 136, 0.12);
+                  border-color: rgba(13, 148, 136, 0.2);
+                "
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="#14B8A6"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                </svg>
+              </div>
+              <div
+                class="sol-feature-badge"
+                style="
+                  background: rgba(13, 148, 136, 0.1);
+                  color: var(--teal-light);
+                  border-color: rgba(13, 148, 136, 0.2);
+                "
+              >
+                Digital Records
+              </div>
+            </div>
+            <h4 class="sol-feature-title">
+              Secure, Centralised Patient Records
+            </h4>
+            <p class="sol-feature-desc">
+              Every patient's history, prescriptions, and test results stored in
+              Supabase PostgreSQL — accessible instantly by authorised roles,
+              never lost, never duplicated.
+            </p>
+          </div>
+
+          <div class="sol-feature-card">
+            <div class="sol-feature-top">
+              <div
+                class="sol-feature-icon"
+                style="
+                  background: rgba(139, 92, 246, 0.12);
+                  border-color: rgba(139, 92, 246, 0.2);
+                "
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="#A78BFA"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="sol-feature-badge"
+                style="
+                  background: rgba(139, 92, 246, 0.1);
+                  color: #a78bfa;
+                  border-color: rgba(139, 92, 246, 0.2);
+                "
+              >
+                AI Assistant
+              </div>
+            </div>
+            <h4 class="sol-feature-title">ARIA — Patient Health Assistant</h4>
+            <p class="sol-feature-desc">
+              Patients receive AI-powered health assessments 24/7 through the
+              Patient Portal — reducing unnecessary visits and ensuring people
+              get guidance before a condition escalates.
+            </p>
+          </div>
+
+          <div class="sol-feature-card">
+            <div class="sol-feature-top">
+              <div
+                class="sol-feature-icon"
+                style="
+                  background: rgba(34, 197, 94, 0.1);
+                  border-color: rgba(34, 197, 94, 0.2);
+                "
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="#4ADE80"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                  <path d="M16 3.13a4 4 0 010 7.75" />
+                </svg>
+              </div>
+              <div
+                class="sol-feature-badge"
+                style="
+                  background: rgba(34, 197, 94, 0.1);
+                  color: #4ade80;
+                  border-color: rgba(34, 197, 94, 0.2);
+                "
+              >
+                Multi-Role
+              </div>
+            </div>
+            <h4 class="sol-feature-title">5 Role-Based Portals</h4>
+            <p class="sol-feature-desc">
+              Dedicated dashboards for Patients, Doctors, Nurses, Admins, and
+              SuperAdmin — each with tailored tools, permissions, and real-time
+              notifications relevant to their function.
+            </p>
+          </div>
+
+          <div class="sol-feature-card">
+            <div class="sol-feature-top">
+              <div
+                class="sol-feature-icon"
+                style="
+                  background: rgba(245, 158, 11, 0.1);
+                  border-color: rgba(245, 158, 11, 0.2);
+                "
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="#FCD34D"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                  <path d="M13.73 21a2 2 0 01-3.46 0" />
+                </svg>
+              </div>
+              <div
+                class="sol-feature-badge"
+                style="
+                  background: rgba(245, 158, 11, 0.1);
+                  color: #fcd34d;
+                  border-color: rgba(245, 158, 11, 0.2);
+                "
+              >
+                Real-Time
+              </div>
+            </div>
+            <h4 class="sol-feature-title">
+              Live Notifications Across All Roles
+            </h4>
+            <p class="sol-feature-desc">
+              Instant alerts keep every stakeholder informed — appointment
+              confirmations, triage updates, prescription readiness, and
+              critical patient flags delivered in real time.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- CTA -->
+        <div class="solution-cta">
+          <div class="solution-cta-text">
+            <h3 class="solution-cta-title">Ready to see it in action?</h3>
+            <p class="solution-cta-sub">
+              Explore the full platform and see how MedIntel transforms every
+              step of the clinical journey.
+            </p>
+          </div>
+          <div class="solution-cta-actions">
+            <a href="#" class="btn-primary">
+              Explore the Platform
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://sabyoni-devs-med-intel.vercel.app/" class="btn-secondary">
+              View Live Demo
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"
+                />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
